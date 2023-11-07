@@ -38,7 +38,7 @@ public class Planet extends JPanel {
 
     public void draw(Graphics2D g2) {
         super.paint(g2);
-        g2.drawImage(this.pImage, 400, 400, 100,100,null);
+        g2.drawImage(this.pImage, 100, 100, 200,200,null);
 
     }
 
