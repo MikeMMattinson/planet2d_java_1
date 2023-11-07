@@ -1,9 +1,10 @@
+package src;
 
 
 import javax.swing.JFrame;
 
 
-public class PlaneMain {
+public class Start {
 
     public static JFrame window;
     public static PlanetPanel pp = new PlanetPanel();
@@ -14,6 +15,7 @@ public class PlaneMain {
         window.pack();
         window.setVisible(true);
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
+        //pp.update();
+        //pp.paintComponent(Graphics g);
     } 
 }
